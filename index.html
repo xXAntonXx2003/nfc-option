@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elige una opción</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: white;
+  background: linear-gradient(135deg,#111827,#374151,#111827);
+}
+main {
+  width: 100%;
+  max-width: 400px;
+  padding: 35px 25px;
+  text-align: center;
+  background: #1f2937;
+  border: 1px solid #4b5563;
+  border-radius: 24px;
+}
+h1 { font-size: 29px; }
+p { color: #d1d5db; margin-bottom: 30px; }
+a {
+  display: block;
+  padding: 19px;
+  margin: 16px 0;
+  border-radius: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  color: #062b16;
+}
+.whatsapp { background: #25D366; }
+.spotify { background: #1DB954; }
+footer { color: #9ca3af; font-size: 12px; margin-top: 25px; }
+</style>
+</head>
+<body>
+<main>
+  <div style="font-size:45px">📲</div>
+  <h1>¡Elige una opción!</h1>
+  <p>Selecciona a dónde deseas ingresar:</p>
+
+  <a class="whatsapp"
+     href="https://wa.me/qr/MQNUKKEYF5TQB1"
+     target="_blank">
+     💬 Abrir WhatsApp
+  </a>
+
+  <a class="spotify"
+     href="https://open.spotify.com/playlist/37i9dQZEVXdifE1xAdKgHA?si=_qAB2OjRQaOqlsfimul3yw&amp;utm_source=copy-link&amp;pi=MEqxhvKcSpaCL"
+     target="_blank">
+     🎵 Escuchar en Spotify
+  </a>
+
+  <footer>Acerca tu celular a la etiqueta NFC y elige.</footer>
+</main>
+</body>
+</html>
